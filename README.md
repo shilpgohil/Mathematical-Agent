@@ -1,4 +1,4 @@
-.# Mathematical Agent
+# Mathematical Agent
 
 ## Introduction
 Mathematical Agent is an advanced AI powered mathematics assistant that helps users solve complex mathematical problems across various domains. Built with Streamlit and powered by Google's Gemini model, it provides step by step solutions, detailed explanations, and access to a comprehensive mathematical knowledge base.
@@ -40,6 +40,7 @@ mathematical-agent/
 │   ├── app.py             # Main application file
 │   ├── math_db/           # ChromaDB knowledge base
 ├── requirements.txt       # Python dependencies
+├── Demo.mp4               # Demo Video 
 ├── README.md              # This documentation file
 ```
 
@@ -61,5 +62,4 @@ Distributed under the MIT License. See `LICENSE` for more information.
 - Streamlit
 
 ## Contact
-Your Name - your.email@example.com
-Project Link: https://github.com/yourusername/mathematical-agent
+Your Name - shilpgohil@gmail.com
