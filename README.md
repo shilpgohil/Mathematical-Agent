@@ -62,4 +62,4 @@ Distributed under the MIT License. See `LICENSE` for more information.
 - Streamlit
 
 ## Contact
-Your Name - shilpgohil@gmail.com
+@shilpgohil@gmail.com
