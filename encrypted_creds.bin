@@ -1,0 +1,17 @@
+from cryptography.fernet import Fernet
+import os
+
+# Generate key only once and store securely outside repo
+KEY = Fernet.generate_key()
+
+cipher_suite = Fernet(KEY)
+
+credentials = {
+    'gemini_key': os.environ.get('GEMINI_ENCRYPTED', ''),
+    'tavily_key': os.environ.get('TAVILY_ENCRYPTED', '')
+}
+
+encrypted_data = cipher_suite.encrypt(str(credentials).encode())
+
+with open('encrypted_creds.bin', 'wb') as f:
+    f.write(encrypted_data)
